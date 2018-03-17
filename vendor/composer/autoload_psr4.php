@@ -24,7 +24,11 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'Psr\\Cache\\' => array($vendorDir . '/psr/cache/src'),
+    'Nelmio\\CorsBundle\\' => array($vendorDir . '/nelmio/cors-bundle'),
     'Negotiation\\' => array($vendorDir . '/willdurand/negotiation/src/Negotiation'),
+    'JMS\\SerializerBundle\\' => array($vendorDir . '/jms/serializer-bundle'),
     'FOS\\RestBundle\\' => array($vendorDir . '/friendsofsymfony/rest-bundle'),
+    'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib/Doctrine/Common/Inflector'),
+    'Doctrine\\Common\\Annotations\\' => array($vendorDir . '/doctrine/annotations/lib/Doctrine/Common/Annotations'),
 );

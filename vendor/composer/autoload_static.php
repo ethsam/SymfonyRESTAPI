@@ -37,7 +37,12 @@ class ComposerStaticInitb108c5e70e189ebb157c22648ff6c889
         ),
         'N' => 
         array (
+            'Nelmio\\CorsBundle\\' => 18,
             'Negotiation\\' => 12,
+        ),
+        'J' => 
+        array (
+            'JMS\\SerializerBundle\\' => 21,
         ),
         'F' => 
         array (
@@ -45,7 +50,9 @@ class ComposerStaticInitb108c5e70e189ebb157c22648ff6c889
         ),
         'D' => 
         array (
+            'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\Common\\Inflector\\' => 26,
+            'Doctrine\\Common\\Annotations\\' => 28,
         ),
     );
 
@@ -122,26 +129,75 @@ class ComposerStaticInitb108c5e70e189ebb157c22648ff6c889
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
+        'Nelmio\\CorsBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nelmio/cors-bundle',
+        ),
         'Negotiation\\' => 
         array (
             0 => __DIR__ . '/..' . '/willdurand/negotiation/src/Negotiation',
+        ),
+        'JMS\\SerializerBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jms/serializer-bundle',
         ),
         'FOS\\RestBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/friendsofsymfony/rest-bundle',
         ),
+        'Doctrine\\Instantiator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
+        ),
         'Doctrine\\Common\\Inflector\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
         ),
+        'Doctrine\\Common\\Annotations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
+        ),
     );
 
     public static $prefixesPsr0 = array (
+        'P' => 
+        array (
+            'PhpOption\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/phpoption/phpoption/src',
+            ),
+            'PhpCollection' => 
+            array (
+                0 => __DIR__ . '/..' . '/phpcollection/phpcollection/src',
+            ),
+        ),
+        'M' => 
+        array (
+            'Metadata\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/jms/metadata/src',
+            ),
+        ),
         'J' => 
         array (
             'JsonpCallbackValidator' => 
             array (
                 0 => __DIR__ . '/..' . '/willdurand/jsonp-callback-validator/src',
+            ),
+            'JMS\\Serializer' => 
+            array (
+                0 => __DIR__ . '/..' . '/jms/serializer/src',
+            ),
+            'JMS\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/jms/parser-lib/src',
+            ),
+        ),
+        'D' => 
+        array (
+            'Doctrine\\Common\\Lexer\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
             ),
         ),
     );
