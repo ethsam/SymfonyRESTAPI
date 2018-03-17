@@ -1,0 +1,11 @@
+ens_jobeet:
+    resource: "@EnsJobeetBundle/Resources/config/routing.yml"
+    prefix:   /
+
+eth_sam_blog:
+    resource: "@EthSamBlogBundle/Resources/config/routing.yml"
+    prefix:   /blog
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

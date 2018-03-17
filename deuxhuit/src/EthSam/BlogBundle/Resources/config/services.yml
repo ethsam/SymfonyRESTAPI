@@ -1,0 +1,4 @@
+services:
+#    eth_sam_blog.example:
+#        class: EthSam\BlogBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

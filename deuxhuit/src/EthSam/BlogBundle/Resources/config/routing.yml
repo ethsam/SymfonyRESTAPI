@@ -1,0 +1,3 @@
+eth_sam_blog_homepage:
+    path:     /
+    defaults: { _controller: EthSamBlogBundle:Default:index }
